@@ -26,3 +26,12 @@ let isLoggedIn = true
 
 console.log(typeof undefined);   //undefined output
 console.log(typeof null);        //object
+
+
+
+//creating symbol
+
+const id =Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId);
